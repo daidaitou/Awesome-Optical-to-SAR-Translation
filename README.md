@@ -8,9 +8,9 @@ This repository indexes the **84 method entries in Fig. 2** of the survey, inclu
 
 ## Method Taxonomy
 
-Upload the taxonomy illustration from the manuscript as `figures/taxonomy.png` and then uncomment this line:
+Upload the taxonomy illustration from the manuscript as `/taxonomy.png` and then uncomment this line:
 
-<!-- ![Method taxonomy](figures/taxonomy.png) -->
+<!-- ![Method taxonomy](/taxonomy.png) -->
 
 ## Browse the literature
 
