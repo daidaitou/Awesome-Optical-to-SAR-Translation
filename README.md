@@ -105,7 +105,7 @@ The taxonomy below follows Fig. 2, rather than regrouping methods according to s
 
 | Method | Full Paper Title | Year | Paper |
 |---|---|---|---|
-| Paired-Flow | Efficient Flow Matching for Paired Image-to-Image Translation with Perceptual and Structural Fidelity | — | Pending verification |
+| Paired-Flow | Efficient Flow Matching for Paired Image-to-Image Translation with Perceptual and Structural Fidelity | 2026 | [Paper](https://cake.fiu.edu/Publications/Mahara+Rishe-26-EF.PairFlow_Efficient_Flow_Matching_for_Paired_Image-to-Image_Translation_with_Perceptual_and_Structural_Fidelity.published-downloaded.pdf) |
 | Rectified Flow | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | 2023 | [Paper](https://arxiv.org/abs/2209.03003) |
 | Sequential Reflow | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | 2023 | [Paper](https://arxiv.org/abs/2209.03003) |
 
@@ -175,7 +175,7 @@ The same records are available as [methods.csv](methods.csv), including a **Veri
 
 ## Editorial notes
 
-- **Paired-Flow:** the supplied paper title is included, but a reliable original publication link and publication year were not confirmed. It is deliberately left without a paper link.
+- **Paired-Flow:** publication year (2026) and the paper PDF URL were supplied by the repository author.
 - **Sequential Reflow:** points to the Rectified Flow paper, which discusses reflow as a procedure; this does not imply it is a separate publication.
 - **GcGAN:** the previously ambiguous `DcGAN` entry was updated to `GcGAN` following the supplied reference list.
 - **ACLGAN:** the original paper is about unpaired translation and adversarial consistency. Its placement under diversity-oriented methods reproduces the figure and should not be interpreted as a mechanism-based reclassification.
