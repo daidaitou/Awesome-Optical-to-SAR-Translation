@@ -2,20 +2,25 @@
 
 A curated bibliography accompanying the survey *Optical-to-SAR Translation in Remote Sensing: A Systematic Review and Benchmark*.
 
-This resource reproduces the method names and taxonomy of **Fig. 2** in the manuscript. The collection includes both methods applied to optical-to-SAR translation and general-purpose techniques that may be transferable. **Inclusion does not imply validation on optical-to-SAR datasets.**
+This repository indexes the **84 method entries in Fig. 2** of the survey, including approaches investigated for optical-to-SAR translation and general-purpose techniques with potential transferability. **Listing a method does not imply it has been validated on optical-to-SAR datasets.**
 
-> **Bibliography status:** This is a working draft. Candidate paper titles, years and URLs require a final bibliographic check against the original publications. Blank entries are deliberately left unresolved rather than replaced by search links.
+> **Bibliographic policy:** Paper titles and links supplied in the original list are retained; additional entries were checked against accessible original paper pages, publisher pages, or scholarly preprints. Existing links not revisited during this update remain marked as such in `methods.csv`. Missing publication information is not guessed. Years refer to a selected conference/journal publication when identifiable, otherwise to a preprint.
 
-## Method taxonomy
+## Method Taxonomy
 
-Upload the figure as `figures/taxonomy.png` and uncomment the following line:
+Upload the taxonomy illustration from the manuscript as `figures/taxonomy.png` and then uncomment this line:
 
 <!-- ![Method taxonomy](figures/taxonomy.png) -->
 
-## Literature by category
+## Browse the literature
+
+The taxonomy below follows Fig. 2, rather than regrouping methods according to subsequent developments. Repeated method entries are retained where the figure places them in more than one context.
+
+**Table columns:** method label; original publication title; publication year; link to paper.
 
 
 ## GAN-Based
+
 
 ### Paired Supervised Conditional Methods
 
@@ -27,12 +32,12 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 | GauGAN | Semantic Image Synthesis with Spatially-Adaptive Normalization | 2019 | [Paper](https://arxiv.org/abs/1903.07291) |
 | OASIS | You Only Need Adversarial Supervision for Semantic Image Synthesis | 2021 | [Paper](https://arxiv.org/abs/2012.04781) |
 | SEAN | SEAN: Image Synthesis with Semantic Region-Adaptive Normalization | 2020 | [Paper](https://arxiv.org/abs/1911.12861) |
-| GRIT | To be verified | — | To be verified |
-| DSG-GAN | To be verified | — | To be verified |
-| VD-GAN | To be verified | — | To be verified |
-| CoCosNet | To be verified | — | To be verified |
-| CoCosNet v2 | To be verified | — | To be verified |
-| DRPAN | To be verified | — | To be verified |
+| GRIT | GRIT: GAN Residuals for Paired Image-to-Image Translation | 2024 | [Paper](https://openaccess.thecvf.com/content/WACV2024/html/Suri_GRIT_GAN_Residuals_for_Paired_Image-to-Image_Translation_WACV_2024_paper.html) |
+| DSG-GAN | DSG-GAN: A dual-stage-generator-based GAN for cross-modality synthesis from PET to CT | 2024 | [Paper](https://doi.org/10.1016/j.compbiomed.2024.108296) |
+| VD-GAN | Dual-function discriminator for semantic image synthesis in variational GANs | 2025 | [Paper](https://doi.org/10.1016/j.patcog.2025.111684) |
+| CoCosNet | Cross-domain Correspondence Learning for Exemplar-based Image Translation | 2020 | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Cross-Domain_Correspondence_Learning_for_Exemplar-Based_Image_Translation_CVPR_2020_paper.pdf) |
+| CoCosNet v2 | CoCosNet v2: Full-Resolution Correspondence Learning for Image Translation | 2021 | [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Zhou_CoCosNet_v2_Full-Resolution_Correspondence_Learning_for_Image_Translation_CVPR_2021_paper.html) |
+| DRPAN | Discriminative Region Proposal Adversarial Networks for High-Quality Image-to-Image Translation | 2017 | [Paper](https://arxiv.org/abs/1711.09554) |
 
 ### Unpaired Constraint-Based Methods
 
@@ -43,15 +48,15 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 | DiscoGAN | Learning to Discover Cross-Domain Relations with Generative Adversarial Networks | 2017 | [Paper](https://arxiv.org/abs/1703.05192) |
 | UNIT | Unsupervised Image-to-Image Translation Networks | 2017 | [Paper](https://arxiv.org/abs/1703.00848) |
 | CUT | Contrastive Learning for Unpaired Image-to-Image Translation | 2020 | [Paper](https://arxiv.org/abs/2007.15651) |
-| AttentionGAN | To be verified | — | To be verified |
+| AttentionGAN | AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks | 2019 | [Paper](https://arxiv.org/abs/1911.11897) |
 | U-GAT-IT | U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | 2020 | [Paper](https://arxiv.org/abs/1907.10830) |
-| DcGAN | To be verified | — | To be verified |
+| GcGAN | Geometry-Consistent Generative Adversarial Networks for One-Sided Unsupervised Domain Mapping | 2019 | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Fu_Geometry-Consistent_Generative_Adversarial_Networks_for_One-Sided_Unsupervised_Domain_Mapping_CVPR_2019_paper.html) |
 | DCLGAN | Dual Contrastive Learning for Unsupervised Image-to-Image Translation | 2021 | [Paper](https://arxiv.org/abs/2104.07689) |
-| UVCGAN | To be verified | — | To be verified |
-| CRPGAN | To be verified | — | To be verified |
-| SANTA | To be verified | — | To be verified |
-| LANIT | To be verified | — | To be verified |
-| NICE-GAN | To be verified | — | To be verified |
+| UVCGAN | UVCGAN: UNet Vision Transformer Cycle-Consistent GAN for Unpaired Image-to-Image Translation | 2023 | [Paper](https://openaccess.thecvf.com/content/WACV2023/html/Torbunov_UVCGAN_UNet_Vision_Transformer_Cycle-Consistent_GAN_for_Unpaired_Image-to-Image_Translation_WACV_2023_paper.html) |
+| CRPGAN | CRPGAN: Learning image-to-image translation of two unpaired images by cross-attention mechanism and parallelization strategy | 2023 | [Paper](https://doi.org/10.1371/journal.pone.0280073) |
+| SANTA | Unpaired Image-to-Image Translation with Shortest Path Regularization | 2023 | [Paper](https://doi.org/10.1109/CVPR52729.2023.00981) |
+| LANIT | LANIT: Language-Driven Image-to-Image Translation for Unlabeled Data | 2023 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Park_LANIT_Language-Driven_Image-to-Image_Translation_for_Unlabeled_Data_CVPR_2023_paper.html) |
+| NICE-GAN | Reusing Discriminators for Encoding: Towards Unsupervised Image-to-Image Translation | 2020 | [Paper](https://arxiv.org/abs/2003.00273) |
 
 ### Diversity-Oriented Generation Methods
 
@@ -62,15 +67,15 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 | DRIT | Diverse Image-to-Image Translation via Disentangled Representations | 2018 | [Paper](https://arxiv.org/abs/1808.00948) |
 | StarGAN v2 | StarGAN v2: Diverse Image Synthesis for Multiple Domains | 2020 | [Paper](https://arxiv.org/abs/1912.01865) |
 | DRIT++ | DRIT++: Diverse Image-to-Image Translation via Disentangled Representations | 2020 | [Paper](https://arxiv.org/abs/1905.01270) |
-| DR-AVIT | To be verified | — | To be verified |
-| ACLGAN | To be verified | — | To be verified |
-| StyleGAN-NADA | To be verified | — | To be verified |
+| DR-AVIT | DR-AVIT: Toward Diverse and Realistic Aerial Visible-to-Infrared Image Translation | 2024 | [Paper](https://doi.org/10.1109/TGRS.2024.3405989) |
+| ACLGAN | Unpaired Image-to-Image Translation using Adversarial Consistency Loss | 2020 | [Paper](https://hyperplane-lab.github.io/acl-gan-page/) |
+| StyleGAN-NADA | StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators | 2022 | [Paper](https://arxiv.org/abs/2108.00946) |
 | MSGAN | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | 2019 | [Paper](https://arxiv.org/abs/1903.05628) |
 | Image2StyleGAN | Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space? | 2019 | [Paper](https://arxiv.org/abs/1904.03189) |
 | FUNIT | Few-Shot Unsupervised Image-to-Image Translation | 2019 | [Paper](https://arxiv.org/abs/1905.01723) |
 
-
 ## Diffusion, Flow-Based, and Foundation-Model-Enabled
+
 
 ### Task-specific Generative Models / Conditional Diffusion
 
@@ -89,9 +94,9 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 
 | Method | Full Paper Title | Year | Paper |
 |---|---|---|---|
-| EGSDE | To be verified | — | To be verified |
+| EGSDE | EGSDE: Unpaired Image-to-Image Translation via Energy-Guided Stochastic Differential Equations | 2022 | [Paper](https://arxiv.org/abs/2207.06635) |
 | BBDM | BBDM: Image-to-Image Translation with Brownian Bridge Diffusion Models | 2023 | [Paper](https://arxiv.org/abs/2205.07680) |
-| LBM | LBM: Latent Bridge Matching for Fast Image-to-Image Translation | 2025 | To be verified |
+| LBM | LBM: Latent Bridge Matching for Fast Image-to-Image Translation | 2025 | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Chadebec_LBM_Latent_Bridge_Matching_for_Fast_Image-to-Image_Translation_ICCV_2025_paper.html) |
 | I2SB | I2SB: Image-to-Image Schrödinger Bridge | 2023 | [Paper](https://arxiv.org/abs/2302.05872) |
 | DDIBs | Dual Diffusion Implicit Bridges for Image-to-Image Translation | 2023 | [Paper](https://arxiv.org/abs/2203.08382) |
 | CycleDiffusion | CycleDiffusion: Diffusion-Based Image Editing with Stochastic Coupling | 2023 | [Paper](https://arxiv.org/abs/2210.05559) |
@@ -100,9 +105,9 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 
 | Method | Full Paper Title | Year | Paper |
 |---|---|---|---|
-| Paired-Flow | To be verified | — | To be verified |
+| Paired-Flow | Efficient Flow Matching for Paired Image-to-Image Translation with Perceptual and Structural Fidelity | — | Pending verification |
 | Rectified Flow | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | 2023 | [Paper](https://arxiv.org/abs/2209.03003) |
-| Sequential Reflow | To be verified | — | To be verified |
+| Sequential Reflow | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | 2023 | [Paper](https://arxiv.org/abs/2209.03003) |
 
 ### Pretrained Generative Model Adaptation / Conditional Control
 
@@ -110,7 +115,7 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 |---|---|---|---|
 | T2I-Adapter | T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models | 2023 | [Paper](https://arxiv.org/abs/2302.08453) |
 | IP-Adapter | IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models | 2023 | [Paper](https://arxiv.org/abs/2308.06721) |
-| Uni-ControlNet | To be verified | — | To be verified |
+| Uni-ControlNet | Uni-ControlNet: All-in-One Control to Text-to-Image Diffusion Models | 2023 | [Paper](https://arxiv.org/abs/2305.16322) |
 | GLIGEN | GLIGEN: Open-Set Grounded Text-to-Image Generation | 2023 | [Paper](https://arxiv.org/abs/2301.07093) |
 
 ### Pretrained Generative Model Adaptation / Instruction and Editing-based Translation
@@ -130,8 +135,8 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 | Method | Full Paper Title | Year | Paper |
 |---|---|---|---|
 | LoRA | LoRA: Low-Rank Adaptation of Large Language Models | 2022 | [Paper](https://arxiv.org/abs/2106.09685) |
-| SVDiff | To be verified | — | To be verified |
-| DiffFit | To be verified | — | To be verified |
+| SVDiff | SVDiff: Compact Parameter Space for Diffusion Fine-Tuning | 2023 | [Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Han_SVDiff_Compact_Parameter_Space_for_Diffusion_Fine-Tuning_ICCV_2023_paper.pdf) |
+| DiffFit | DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-Efficient Fine-Tuning | 2023 | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Xie_DiffFit_Unlocking_Transferability_of_Large_Diffusion_Models_via_Simple_Parameter-efficient_ICCV_2023_paper.html) |
 
 ### Foundation-Model-Assisted Translation / Visual Representation Guidance
 
@@ -142,38 +147,47 @@ Upload the figure as `figures/taxonomy.png` and uncomment the following line:
 | MAE | Masked Autoencoders Are Scalable Vision Learners | 2022 | [Paper](https://arxiv.org/abs/2111.06377) |
 | SAM | Segment Anything | 2023 | [Paper](https://arxiv.org/abs/2304.02643) |
 | Grounding DINO | Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection | 2024 | [Paper](https://arxiv.org/abs/2303.05499) |
-| SARATR-X | To be verified | — | To be verified |
-| SARMAE | To be verified | — | To be verified |
+| SARATR-X | SARATR-X: Toward Building a Foundation Model for SAR Target Recognition | 2025 | [Paper](https://doi.org/10.1109/TIP.2025.3531988) |
+| SARMAE | SARMAE: Masked Autoencoder for SAR Representation Learning | 2026 | [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_SARMAE_Masked_Autoencoder_for_SAR_Representation_Learning_CVPR_2026_paper.html) |
 
 ### Foundation-Model-Assisted Translation / Cross-Modal Representation Guidance
 
 | Method | Full Paper Title | Year | Paper |
 |---|---|---|---|
-| CROMA | To be verified | — | To be verified |
-| DeCUR | To be verified | — | To be verified |
-| SkySense | To be verified | — | To be verified |
+| CROMA | CROMA: Remote Sensing Representations with Contrastive Radar-Optical Masked Autoencoders | 2023 | [Paper](https://arxiv.org/abs/2311.00566) |
+| DeCUR | Decoupling Common and Unique Representations for Multimodal Self-supervised Learning | 2023 | [Paper](https://arxiv.org/abs/2309.05300) |
+| SkySense | SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery | 2024 | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Guo_SkySense_A_Multi-Modal_Remote_Sensing_Foundation_Model_Towards_Universal_Interpretation_CVPR_2024_paper.html) |
 
 ### Foundation-Model-Assisted Translation / Vision-Language Guidance
 
 | Method | Full Paper Title | Year | Paper |
 |---|---|---|---|
 | CLIP | Learning Transferable Visual Models From Natural Language Supervision | 2021 | [Paper](https://arxiv.org/abs/2103.00020) |
-| RemoteCLIP | To be verified | — | To be verified |
-| GeoRSCLIP | To be verified | — | To be verified |
+| RemoteCLIP | RemoteCLIP: A Vision Language Foundation Model for Remote Sensing | 2024 | [Paper](https://arxiv.org/abs/2306.11029) |
+| GeoRSCLIP | RS5M and GeoRSCLIP: A Large Scale Vision-Language Dataset and A Large Vision-Language Model for Remote Sensing | 2024 | [Paper](https://arxiv.org/abs/2306.11300) |
 | EarthGPT | EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain | 2024 | [Paper](https://arxiv.org/abs/2401.16822) |
 | GeoChat | GeoChat: Grounded Large Vision-Language Model for Remote Sensing | 2024 | [Paper](https://arxiv.org/abs/2311.15826) |
-| SARCLIP | To be verified | — | To be verified |
+| SARCLIP | SARCLIP: a multimodal foundation framework for SAR imagery via contrastive language-image pre-training | 2026 | [Paper](https://doi.org/10.1016/j.isprsjprs.2025.10.017) |
 
 ## Structured bibliography
 
-The editable source of this list is [`methods.csv`](methods.csv). Repeated methods are retained when Fig. 2 assigns them to multiple methodological roles.
+The same records are available as [methods.csv](methods.csv), including a **Verification Status** field. The CSV is intended as the structured source of truth for updates.
+
+## Editorial notes
+
+- **Paired-Flow:** the supplied paper title is included, but a reliable original publication link and publication year were not confirmed. It is deliberately left without a paper link.
+- **Sequential Reflow:** points to the Rectified Flow paper, which discusses reflow as a procedure; this does not imply it is a separate publication.
+- **GcGAN:** the previously ambiguous `DcGAN` entry was updated to `GcGAN` following the supplied reference list.
+- **ACLGAN:** the original paper is about unpaired translation and adversarial consistency. Its placement under diversity-oriented methods reproduces the figure and should not be interpreted as a mechanism-based reclassification.
+- **SARATR-X / SARMAE:** years follow the journal/conference publications (2025 / 2026), rather than earlier preprints.
+- **SPADE and GauGAN:** both point to the same original SPADE/GauGAN paper; this is intentional.
 
 ## Citation
 
-Ye et al., *Optical-to-SAR Translation in Remote Sensing: A Systematic Review and Benchmark* (manuscript). Full publication information will be added when available.
+If you use this bibliography, please cite the accompanying survey when its final publication details become available.
 
-## Notes
+**Repository:** https://github.com/daidaitou/Awesome-Optical-to-SAR-Translation
 
-- Method names and category assignments follow Fig. 2 of the supplied v3 manuscript.
-- Publication years are intended to refer to formal publication years when known; please check them against the version you cite.
-- Do not treat candidate links as independently verified bibliographic records.
+## Contributions
+
+Corrections to publication metadata, broken links, or missing original papers are welcome through GitHub Issues or Pull Requests.
