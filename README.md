@@ -8,9 +8,7 @@ This repository indexes the **84 method entries in Fig. 2** of the survey, inclu
 
 ## Method Taxonomy
 
-Upload the taxonomy illustration from the manuscript as `/taxonomy.png` and then uncomment this line:
-
-<!-- ![Method taxonomy](/taxonomy.png) -->
+![Taxonomy of optical-to-SAR translation methods](taxonomy.png)
 
 ## Browse the literature
 
