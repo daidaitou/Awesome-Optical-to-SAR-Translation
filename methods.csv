@@ -1,1 +1,4 @@
-
+Category,Subcategory,Method,Paper Title,Year,Paper URL
+GAN-Based,Paired Supervised,Pix2Pix,Image-to-Image Translation with Conditional Adversarial Networks,2017,https://arxiv.org/abs/1611.07004
+GAN-Based,Paired Supervised,Pix2PixHD,High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs,2018,https://arxiv.org/abs/1711.11585
+GAN-Based,Paired Supervised,SPADE,Semantic Image Synthesis with Spatially-Adaptive Normalization,2019,https://arxiv.org/abs/1903.07291
